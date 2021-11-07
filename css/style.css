@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body {
+  font-family: 'Raleway';
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.inner-contact {
+  border: solid #74cfae;
+  background-color: #74cfae;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 14px 12px;
+}

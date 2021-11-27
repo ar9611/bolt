@@ -28,6 +28,7 @@ body {
   position: fixed;
   right: 0;
   left: 0;
+  z-index: 20;
 }
 
 .header-inner {
@@ -37,14 +38,21 @@ body {
 }
 
 .header-contact, .info {
-  border: solid #74cfae;
   background-color: #74cfae;
   font-size: 12px;
-  font-weight: bold;
 }
 
 .header-contact {
   padding: 14px 12px;
+}
+
+.header-contact, .artcle-content li, .info .sna a {
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.header-contact:hover, .info:hover {
+  color: #333;
 }
 
 /*title*/
@@ -124,6 +132,15 @@ h1 {
   padding-top: 80px;
 }
 
+.artcle-content li {
+  opacity: 0.7;
+  z-index: 10;
+}
+
+.artcle-content li:hover {
+  opacity: 1;
+}
+
 .caption {
   font-size: 0;
   display: flex;
@@ -183,11 +200,9 @@ h1 {
 }
 
 .sns a {
-  cursor: pointer;
   color: #74cfae;
   display: inline-block;
   padding: 20px 0;
-  transition: all .3s;
   width: 185px;
 }
 

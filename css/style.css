@@ -46,9 +46,9 @@ body {
   padding: 14px 12px;
 }
 
-.header-contact, .artcle-content li, .info .sna a {
+.header-contact, .artcle-content img, .info, .sns a {
   cursor: pointer;
-  transition: all .3s;
+  transition: .3s;
 }
 
 .header-contact:hover, .info:hover {
@@ -132,12 +132,12 @@ h1 {
   padding-top: 80px;
 }
 
-.artcle-content li {
+.artcle-content img {
   opacity: 0.7;
   z-index: 10;
 }
 
-.artcle-content li:hover {
+.artcle-content img:hover {
   opacity: 1;
 }
 

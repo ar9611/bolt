@@ -46,8 +46,9 @@ body {
   padding: 14px 12px;
 }
 
-.header-contact, .artcle-content img, .info, .sns a {
+.header-contact, .artcle-content li, .info, .sns li {
   cursor: pointer;
+  text-decoration: none;
   transition: .3s;
 }
 
@@ -128,17 +129,17 @@ h1 {
   justify-content: space-between;
 }
 
-.artcle-content a:nth-child(n+4) {
-  padding-top: 80px;
-}
-
-.artcle-content img {
+.artcle-content li {
   opacity: 0.7;
   z-index: 10;
 }
 
-.artcle-content img:hover {
+.artcle-content li:hover {
   opacity: 1;
+}
+
+.artcle-content li:nth-child(n+4) {
+  margin-top: 80px;
 }
 
 .caption {
@@ -173,22 +174,22 @@ h1 {
 }
 
 .circle-content {
-  border-collapse: separate;
-  margin: auto;
   padding-bottom: 100px;
 }
 
 .circle {
   color: white;
+  display: inline-block;
   font-size: 16px;
-}
-
-.circle td {
   padding-left: 180px;
 }
 
-.circle td:first-child {
+.circle:first-child {
   padding-left: 0;
+}
+
+.circle p {
+  margin: 10px 0;
 }
 
 /*nav*/
@@ -196,17 +197,19 @@ h1 {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  vertical-align: top;
 }
 
-.sns a {
-  color: #74cfae;
+.sns li {
   display: inline-block;
   padding: 20px 0;
   width: 185px;
 }
 
-.sns a:hover {
+.sns a {
+  color: #74cfae;
+}
+
+.sns li:hover {
   background-color: white;
 }
 

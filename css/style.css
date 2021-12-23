@@ -219,36 +219,6 @@
     padding: 20px 0 25px 0;
   }
 
-  @media screen and (max-width: 767px) {
-    /*headr*/
-    .header-contact {
-      display: none;
-    }
-
-    /*title*/
-    .title-inner {
-      padding-top: 160px;
-      padding-bottom: 130px;
-    }
-
-    .title-name {
-      font-size: 80px;
-    }
-
-    .title-text {
-      word-break: break-all;
-    }
-
-      /*nav*/
-      .nav-inner {
-        padding: 50px 15px;
-      }
-
-      .sns li {
-        display: block;
-      }
-    }
-  
   @media screen and (max-width: 1199px) {
       /*what we can do*/
       .block {
@@ -304,3 +274,67 @@
       margin-right: 15px;
     }
   }
+
+  @media screen and (max-width: 767px) {
+    /*headr*/
+    .header-contact {
+      display: none;
+    }
+
+    .hamburger {
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-sizing: border-box;
+      padding: 10px;
+      position: relative;
+      
+    }
+
+    .btn_line {
+      display: block;
+      position: absolute;
+      right: 3px;
+      border: 1px solid #ddd;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    .btn_line:first-child {
+      top: 0;
+    }
+
+    .btn_line:nth-child(2) {
+      top: 10px;
+    }
+
+    .btn_line:last-child {
+      top: 20px;
+    }
+
+
+    /*title*/
+    .title-inner {
+      padding-top: 160px;
+      padding-bottom: 130px;
+    }
+
+    .title-name {
+      font-size: 80px;
+    }
+
+    .title-text {
+      word-break: keep-all;
+    }
+
+      /*nav*/
+      .nav-inner {
+        padding: 50px 0;
+        margin: 0 15px;
+      }
+
+      .sns li {
+        width: 350px;
+      }
+
+    }
+  

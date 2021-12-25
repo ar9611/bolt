@@ -220,6 +220,7 @@
   }
 
   @media screen and (max-width: 1199px) {
+    
       /*what we can do*/
       .block {
         display: block;
@@ -276,6 +277,11 @@
   }
 
   @media screen and (max-width: 767px) {
+
+    .warp {
+      overflow: hidden;
+    }
+
     /*headr*/
     .header-contact {
       display: none;
@@ -322,6 +328,5 @@
       .sns li {
         width: 350px;
       }
-
     }
   

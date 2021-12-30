@@ -205,12 +205,12 @@ body {
 
 .sns li {
   display: inline-block;
-  padding: 20px 0;
-  width: 185px;
 }
 
 .sns a {
   color: #74cfae;
+  padding: 20px 0;
+  width: 185px;
 }
 
 .sns li:hover {
@@ -342,7 +342,12 @@ body {
   }
 
   .sns li {
+    display: block;
+  }
+
+  .sns a {
     width: 100%;
   }
+
 }
 
